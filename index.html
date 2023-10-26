@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@500&family=Kenia&family=Montserrat:wght@500&family=Nanum+Gothic:wght@700&family=Nunito:ital,wght@1,300&family=Oswald:wght@300;500&family=Pathway+Extreme:wght@100&family=Playpen+Sans&family=Quicksand:wght@300&display=swap');
+   *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color:white;
+background-size: cover;
+background-repeat: no-repeat;
+    }
+    nav
+    {
+        display: flex;
+        justify-content: flex-end;
+        padding: 16px;
+        gap: 0px;
+
+font-size: 26px;
+font-family: 'Oswald', -serif;
+    }
+    nav a
+    {
+        text-decoration: none;
+        color:#2f4858;
+        width: 200px;
+        text-align: center;
+       
+       
+        
+    }
+    nav a:hover{
+       
+
+        color:#545192;
+    }
+   .c1
+   {
+    position: absolute;
+    left: 200px;
+    top: 230px;
+    font-family: 'Oswald', sans-serif;
+   }
+    .c1 h1
+    {
+       color: orangered;
+    }
+   
+    .c1 h2
+    {
+        color:#c1308b;
+        font-size: 30px;
+    }
+    .c1 button{
+        width: 200px;
+        height: 50px;
+        border: none;
+       background-color: crimson;
+color: aliceblue;
+
+    }
+    .pp 
+    {
+        position: fixed;
+        left: 600px;
+        top: 100px;
+    }
+    .pp img
+    {
+        filter: grayscale(20);
+        width: 400px;
+        height: 500px;
+        border: 2px solid gray;
+       
+    }
+    .slo
+    {
+        position: absolute;
+        right: 100px;
+        top: 200px;
+        width: 300px;
+
+        padding: 20px;
+        font-size: 20px;
+        
+        
+    }
+    .slo h1
+    {
+        color: #c1308b;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .slo p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: #2f4858;
+    }
+    .pic
+    {
+        position:absolute;
+        right: 500px;
+    } 
+    .ic 
+    {
+        display: flex;
+        
+    }
+    ion-icon
+    {
+        color: #2f4858;
+        font-size: 30px;
+        justify-content: center;
+        
+    }
+    #About
+    {
+        position:absolute;
+        top: 800px;
+        left: 200px;
+        width: 700px;
+    
+
+    }
+    #About h3
+    {
+        color: #2f4858;
+        font-size: 27px;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+   #About p{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+   }
+   #About a
+   {
+    text-decoration: none;
+   }
+   #About button
+   {
+    width: 200px;
+    border: none;
+    height: 40px;
+    background-color: #eb0066;
+    color: white;
+    font-size: 17px;
+   }
+   #Education
+   {
+    
+    position:absolute;
+        top: 1200px;
+        left: 200px;
+        width: 800px;
+    
+   }
+   #Education h3
+    {
+        color: #2f4858;
+        font-size: 27px;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #Education h4{
+        color: #c1308b;
+        font-size: 27px;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #Education p
+    {
+        padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    }
+#Skill
+{
+    position:absolute;
+        top: 1500px;
+        left: 200px;
+        width: 800px;
+}
+#Skill h3,#Contact h3
+    {
+        color: #2f4858;
+        font-size: 27px;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #Skill h4{
+        color: #c1308b;
+        font-size: 27px;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #Skill li
+    {
+        padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    }
+    #Contact
+    {
+        position:absolute;
+        top: 1900px;
+        left: 200px;
+        width: 800px;
+        height: 100px;
+   
+        
+}
+#Contact label
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #c1308b;
+        font-size: 27px;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#Contact button
+{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: #eb0066;
+    color: white;
+}
+#Contact input
+{
+    width: 300px;
+    height: 40px;
+    font-size: 17px;
+}
+    
+</style>
+<body>
+    <nav>
+        <a href="" style="position:absolute;left: 10px;color:#eb0066;"><ol>Portfolio</ol></a>
+    <a href="#"><ol>Home</ol></a>
+    <a href="#About"><ol>About</ol></a>
+    <a href="#Education"><ol>Education</ol></a>
+    <a href="#Skill"><ol>Skill</ol></a>
+    <a href="#Contact"><ol>Contact</ol></a>
+    <a href="#" style="border: 2px solid #305078;"><ol>Join</ol></a>
+    </nav>
+    <div class="co">
+        <div class="c1">
+           <h1>I Am </h1>
+           <br>
+           <h2>Web developer</h2>
+           <br>
+           <a href="ram.pdf">
+            <a href="ram.pdf " target="_blank">
+            <button>Downloard Cv</button>
+        </a>
+    </a>
+        </div>
+    </div>
+    <div class="pp">
+        
+    </div>
+    <div class="slo">
+       <h1> Welcome..</h1>
+       <P>As you explore these pages, you'll discover a tapestry of projects, creativity, and the dedication I bring to my work. Each piece here represents a step in my professional adventure, and I'm excited to share them with you.</P>
+      <br>
+       <div class="ic">
+      <a href=""> <ion-icon name="logo-instagram"></ion-icon></a>&nbsp;&nbsp;
+      <a href=""> <ion-icon name="logo-facebook"></ion-icon></a>&nbsp;&nbsp;
+       <a href="https://github.com/ramachandran30"><ion-icon name="logo-github"></ion-icon></a>
+    </div>
+    </div>
+    <div class="pic">
+  <img src="prof.png">
+    </div>
+    <div id="About">
+        
+       <h3>About:</h3>
+       <br>
+       <p>I'm a web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you!</p>
+<a href="https://github.com/ramachandran30"><button>View My Projects</button></a>
+       <div>
+
+</div>
+</div>
+<div id="Education">
+<h3>Education:</h3><br>
+<h4>BCA, SRINIVASAN COLLEGE OF ARTS AND SCIENCE</h4><br>
+<p>I am Ramachandran I pursued my BCA at SRINIVASAN COLLEGE OF ARTS AND SCIENCE, where I honed my skills and gained valuable knowledge in [Relevant Subject Areas]. This educational journey equipped me with a strong foundation in Web developer, which I continue to apply in my professional work.</p>
+</div>
+
+<div id="Skill">
+<h3>SKILL:</h3>
+<h4>Front-End Development:</h4>
+<li>Proficient in HTML, CSS, and JavaScript.</li>
+<li>Experience with modern front-end libraries and frameworks, including React and Vue.js.</li>
+<li>Responsive web design, ensuring optimal user experience on all devices.</li>
+<li>Cross-browser compatibility and performance optimization.</li>
+
+</div>
+<div id="Contact">
+    <h3>Contact:</h3><br>
+    <a href="mailto:ramachandran6436@gmail.com"><p>@ramachandran6436@gmail.com</p></a><br>
+    <a href="https://github.com/ramachandran30"><p>@github</p></a><br>
+    <a href="#"><p>@CALL</p></a><br>
+</div>
+</body>
+</html>
