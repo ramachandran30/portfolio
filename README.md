@@ -1,2 +1,2 @@
 # portfolio
- QuizMaster is an engaging and interactive quiz app designed to challenge your knowledge across various topics. Whether you’re a trivia enthusiast, a student looking to test your knowledge, or just someone who loves a good challenge, QuizMaster has something for everyone
+Welcome to My Creative Portfolio, a digital showcase of my work, skills, and achievements. This website is designed to highlight my expertise and creativity across various projects, providing a comprehensive view of my professional journey
